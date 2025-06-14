@@ -138,69 +138,6 @@ base_url=https://your-resource-name.openai.azure.com/ # Your Azure OpenAI endpoi
 api_version=2023-07-01-preview                        # API version (or latest available)
 ```
 
-## 📡 API Endpoints
-
-### 1. Generate Insights
-**POST** `/generate-insights`
-
-Generate insights from product performance data.
-
-**Request Body:**
-```json
-{
-  "csv_data": "optional CSV string",
-  "use_mock_data": true
-}
-```
-
-**Response:**
-```json
-{
-  "insights": [
-    {
-      "product_id": "P001",
-      "product_name": "Aloe Face Gel",
-      "insight": "Aloe Face Gel has high traffic (1,000 views) but low conversion (1.8%)",
-      "type": "Conversion Concern",
-      "priority": "High",
-      "action_prompt": "Consider improving product description or image quality",
-      "metrics": {
-        "page_views": 1000,
-        "conversion_rate": 1.8
-      }
-    }
-  ],
-  "summary": "Analysis summary...",
-  "total_insights": 5
-}
-```
-
-### 2. Get Mock Data
-**GET** `/mock-data`
-
-Retrieve sample product data for testing.
-
-### 3. Root Endpoint
-**GET** `/`
-
-API information and available endpoints.
-
-## 📈 Data Format
-
-Your CSV data should include these columns:
-
-| Column | Description | Type |
-|--------|-------------|------|
-| product_id | Unique product identifier | String |
-| product_name | Product name | String |
-| category | Product category | String |
-| sales_last_30_days | Sales count (last 30 days) | Integer |
-| sales_last_7_days | Sales count (last 7 days) | Integer |
-| page_views | Total page views | Integer |
-| conversion_rate | Conversion rate (%) | Float |
-
-## 📡 API Endpoints
-
 ## 📡 API Endpoint
 
 ### ➤ `POST /generate-insights`
