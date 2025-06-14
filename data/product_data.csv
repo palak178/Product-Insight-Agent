@@ -1,0 +1,21 @@
+product_id,product_name,category,sales_last_30_days,sales_last_7_days,page_views,conversion_rate
+SKU001,Blue Light Blocking Glasses,Accessories,160,50,1100,4.6
+SKU002,Magnetic Phone Mount,Electronics,190,60,1250,5.2
+SKU003,Charcoal Face Mask,Skincare,130,35,870,4.8
+SKU004,Herbal Sleep Gummies,Supplements,140,45,920,6.3
+SKU005,Wireless Charging Station,Electronics,250,75,1350,5.9
+SKU006,Minimalist Leather Wallet,Fashion,100,30,800,3.9
+SKU007,Acupressure Mat,Fitness,120,40,890,4.5
+SKU008,Coffee Frother Stick,Home & Kitchen,105,28,700,4.2
+SKU009,Electric Scalp Massager,Personal Care,150,55,990,5.7
+SKU010,Scented Soy Candles Set,Home & Garden,130,38,880,4.4
+SKU011,Digital Meat Thermometer,Kitchen Tools,90,25,600,3.8
+SKU012,Luxury Bamboo Sheets,Home & Living,240,85,1200,5.5
+SKU013,Reversible Yoga Pants,Fitness Apparel,150,50,980,4.9
+SKU014,Wireless Noise Cancelling Earbuds,Electronics,280,95,1450,6.0
+SKU015,Cold Brew Coffee Maker,Kitchen,160,50,910,4.6
+SKU016,Vitamin D3 + K2 Drops,Supplements,120,40,870,6.0
+SKU017,Aromatherapy Shower Steamers,Self Care,110,32,750,4.3
+SKU018,Neck & Back Heating Pad,Wellness,140,48,1000,5.4
+SKU019,Cordless Handheld Vacuum Cleaner,Home Appliances,190,65,1300,5.1
+SKU020,Laptop Stand Adjustable,Office Essentials,170,52,1120,4.7
