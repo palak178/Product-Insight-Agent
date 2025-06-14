@@ -162,16 +162,16 @@ Analyzes product CSV data and generates categorized insights.
 curl -X POST "http://localhost:8000/generate-insights" \
      -H "accept: application/json" \
      -F "use_mock_data=false" \
-     -F "file=@C:/Users/HP/Palak/Insight Agent/product_data.csv"
-
-## Using default mock data
+     -F "file=@/path/to/your/product_data.csv"
+```
+**Using default mock data**
 
 ```bash
 # Test with mock data
 curl -X POST "http://localhost:8000/generate-insights" \
      -H "Content-Type: application/json" \
      -d '{"use_mock_data": true}'
-
+```
 ---
 
 ## 📬 Sample API Response
@@ -217,6 +217,6 @@ curl -X POST "http://localhost:8000/generate-insights" \
       }
     }
   ],
-  "summary": "Analysis of 20 products revealed 11 key insights. Average conversion rate is 4.99% with total 30-day sales of 3125 units.",
+  "summary": "Analysis of 20 products revealed 6 key insights. Average conversion rate is 4.99% with total 30-day sales of 3125 units.",
   "total_insights": 6
 }
